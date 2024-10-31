@@ -49,6 +49,14 @@ export default function BookingPage() {
     );
 
     console.log("Booking submitted:", formData);
+
+    setFormData({
+      name: "",
+      surname: "",
+      id: "",
+      hospital: "Chula",
+      date: ""
+    });
   };
 
   return (
